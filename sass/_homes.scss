@@ -1,7 +1,5 @@
 .homes {
-  background-color: $color-secondary;
   grid-column: center-start / center-end;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 7rem;
@@ -47,7 +45,7 @@
   }
   &__location,
   &__rooms {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
   }
   &__location,
   &__rooms,
