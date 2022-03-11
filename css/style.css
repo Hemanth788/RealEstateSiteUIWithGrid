@@ -190,7 +190,7 @@ body {
     grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center; }
-    @media screen and (max-width: 62.5em) {
+    @media screen and (max-width: 50em) {
       .realtors__list {
         grid-template-columns: repeat(3, min-content max-content); } }
     @media screen and (max-width: 37.5em) {

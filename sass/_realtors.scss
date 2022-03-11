@@ -17,6 +17,13 @@
     grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center;
+
+    @media screen and (max-width: $bp-large) {
+      grid-template-columns: max-content;
+      justify-content: center;
+      justify-items: center;
+    }
+
     @media screen and (max-width: $bp-medium) {
       grid-template-columns: repeat(3, min-content max-content);
     }
